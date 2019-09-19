@@ -1,4 +1,4 @@
-package com.luo.redis.operate.connect;
+package com.luo.redis.connect;
 
 import redis.clients.jedis.Jedis;
 
