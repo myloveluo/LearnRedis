@@ -18,6 +18,8 @@ public class ConnectPool {
         //从连接池中获取单个连接
         Jedis jedis = pool.getResource();
        // jedis.auth("123456");//如果需要密码
+        //释放连接
+        jedis.close();
     }
 
 
