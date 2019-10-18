@@ -2,6 +2,7 @@ package com.luo.redis.operate;
 
 import redis.clients.jedis.Jedis;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class OperateList {
@@ -13,8 +14,8 @@ public class OperateList {
         String temp = jedis.lpop("language");//从key对应的list返回第一个元素并移除
 
 
-
-
+//        HashMap map = new HashMap(130,0.75F);
+//        map.put("name","sunny");
 
     }
 
